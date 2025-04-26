@@ -17,7 +17,8 @@ A command-line utility that acts as an intelligent FFmpeg assistant for develope
 For Linux and macOS users:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/ffmpeg-ai/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/Aliasgar-Jiwani/ffmpeg-ai/main/install.sh | bash
+
 ```
 
 Or download the repository and run the installation script:
