@@ -4,13 +4,20 @@ set -e
 echo "Installing FFmpeg AI Assistant..."
 
 # Check if Python 3.8+ is installed
-if ! command -v python3 &> /dev/null; then
+if ! command -v python3 &> /dev/null && ! command -v python &> /dev/null; then
     echo "Python 3 is required but not found. Please install Python 3.8 or higher."
     exit 1
 fi
 
+# Set python command to either python3 or python
+if command -v python3 &> /dev/null; then
+    PYTHON_CMD="python3"
+else
+    PYTHON_CMD="python"
+fi
+
 # Check Python version
-PYTHON_VERSION=$(python3 -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
+PYTHON_VERSION=$($PYTHON_CMD -c 'import sys; print(f"{sys.version_info.major}.{sys.version_info.minor}")')
 PYTHON_MAJOR=$(echo $PYTHON_VERSION | cut -d. -f1)
 PYTHON_MINOR=$(echo $PYTHON_VERSION | cut -d. -f2)
 
@@ -48,8 +55,16 @@ fi
 
 # Create a virtual environment
 echo "Creating virtual environment..."
-python3 -m venv .venv
-source .venv/bin/activate
+$PYTHON_CMD -m venv .venv
+
+# Activate the virtual environment
+if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "cygwin" ]]; then
+    # Windows (Git Bash)
+    source .venv/Scripts/activate
+else
+    # macOS/Linux
+    source .venv/bin/activate
+fi
 
 # Install the package
 echo "Installing FFmpeg AI Assistant..."
