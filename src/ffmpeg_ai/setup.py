@@ -15,11 +15,7 @@ from urllib.parse import urljoin, urlparse
 from .utils import DOCS_DIR, ensure_directories
 from .retriever import retriever
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
+
 logger = logging.getLogger("ffmpeg-ai.setup")
 
 # FFmpeg documentation URLs

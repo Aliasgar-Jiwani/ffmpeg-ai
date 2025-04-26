@@ -1,11 +1,12 @@
-#!/usr/bin/env python3
-"""
-Command-line interface for ffmpeg-ai.
-"""
-import sys
 import logging
-from typing import Optional
+from rich.logging import RichHandler
 
+# Configure root logger (optional, but ensures no other logs interfere)
+logging.basicConfig(
+    level=logging.CRITICAL,  # Suppress all logs except CRITICAL
+    handlers=[RichHandler(rich_tracebacks=True, show_time=False, show_level=False)]
+)
+from typing import Optional
 import typer
 from rich.console import Console
 from rich.logging import RichHandler
@@ -14,13 +15,8 @@ from .llm_engine import llm_engine
 from .utils import print_command, print_code, get_language_file_extension
 from .cache import cache
 
-# Configure logging
-logging.basicConfig(
-    level=logging.INFO,
-    format="%(message)s",
-    datefmt="[%X]",
-    handlers=[RichHandler(rich_tracebacks=True)]
-)
+logging.basicConfig(level=logging.CRITICAL)
+
 logger = logging.getLogger("ffmpeg-ai")
 
 # Create Typer app

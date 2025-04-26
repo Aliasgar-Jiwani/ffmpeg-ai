@@ -1,6 +1,3 @@
-"""
-Vector DB and embedding logic for ffmpeg-ai.
-"""
 import os
 import sys
 import logging
@@ -9,8 +6,7 @@ from pathlib import Path
 
 import chromadb
 from chromadb.config import Settings
-from langchain_community.vectorstores import Chroma
-# Correct import
+from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.schema import Document
 

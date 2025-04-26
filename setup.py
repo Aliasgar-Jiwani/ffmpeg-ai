@@ -1,35 +1,40 @@
 from setuptools import setup, find_packages
-import os
 
-# Read requirements from requirements.txt
-with open('requirements.txt') as f:
-    requirements = f.read().splitlines()
-
-# Ensure data directory exists
-os.makedirs('ffmpeg_ai/data/ffmpeg_docs', exist_ok=True)
+# Read the contents of README.md
+with open("README.md", "r", encoding="utf-8") as f:
+    long_description = f.read()
 
 setup(
     name="ffmpeg-ai",
-    version="0.1.0",
-    packages=find_packages(),
-    include_package_data=True,
-    install_requires=requirements,
-    entry_points={
-        'console_scripts': [
-            'ffmpeg-ai=ffmpeg_ai.cli:app',
-        ],
-    },
-    python_requires='>=3.8',
-    description="An intelligent FFmpeg assistant CLI tool using local LLM",
+    version="0.1.3",
+    description="AI-powered FFmpeg command generator",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
     author="Aliasgar Jiwani",
     author_email="aliasgarjiwani@gmail.com",
     url="https://github.com/Aliasgar-Jiwani/ffmpeg-ai",
+    packages=["ffmpeg_ai"],
+    package_dir={"ffmpeg_ai": "src"},
+    install_requires=[
+        "typer",
+        "rich",
+        "langchain",
+        "ollama",
+        "chromadb",
+        "requests",
+        "beautifulsoup4",
+        "html2text",
+        "langchain-huggingface",
+    ],
+    entry_points={
+        "console_scripts": [
+            "ffmpeg-ai=ffmpeg_ai.cli:app",
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    package_data={
-        'ffmpeg_ai': ['data/ffmpeg_docs/*.md'],
-    },
+    python_requires=">=3.8",
 )

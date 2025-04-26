@@ -1,0 +1,5 @@
+{
+  "ed57d52272f19b33953110583ad9b062": {
+    "command": "This command converts the given .mov file into an .mp4 file using the H.264 codec for video and AAC for audio, following best practices for FFmpeg commands."
+  }
+}
