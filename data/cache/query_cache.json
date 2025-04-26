@@ -1,0 +1,8 @@
+{
+  "ed57d52272f19b33953110583ad9b062": {
+    "command": "This command converts the .mov video file into an .mp4 file using the H.264 (libx264) codec for video and AAC audio codec while maintaining compatibility with non-compliant codecs by including the `-strict experimental` flag."
+  },
+  "8730ffd03b0cfc530eb17809371b6e33": {
+    "command": "CODE (Example using Python's subprocess module):\n\n```python\nimport subprocess\n\ndef convert_video(input_file, output_file):\n    command = \"ffmpeg -i {} -c:v libx264 -c:a aac -strict experimental {}\".format(input_file, output_file)\n    subprocess.run(command, shell=True, check=True)\n\n# Usage example\nconvert_video(\"input.mov\", \"output.mp4\")\n```"
+  }
+}

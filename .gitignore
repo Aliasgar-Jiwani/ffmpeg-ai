@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# MacOS specific
+.DS_Store
+
+# Cache files
+.cache/
+*.log
+
+# Local data
+ffmpeg_ai/docs/
+*.db
+*.sqlite3
+*.sqlite
+
+# Vector Store files (specific large files)
+data/vector_store/
+*.bin
+*.ckpt
+
+# Output files
+*.out
+*.tmp
+
+# Jupyter (if any)
+.ipynb_checkpoints/
+
+# Others
+dist/
+build/
+*.egg-info/
+
+# Test files
+.coverage
+htmlcov/
+pytest_cache/
+.tox/
+
+# Environment variables
+.env.local
+.env.production
+.env.development
