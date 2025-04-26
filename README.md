@@ -24,7 +24,7 @@ curl -fsSL https://raw.githubusercontent.com/Aliasgar-Jiwani/ffmpeg-ai/main/inst
 Or download the repository and run the installation script:
 
 ```bash
-git clone https://github.com/yourusername/ffmpeg-ai.git
+git clone https://github.com/Aliasgar-Jiwani/ffmpeg-ai.git
 cd ffmpeg-ai
 bash install.sh
 ```
