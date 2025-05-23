@@ -7,10 +7,17 @@ import subprocess
 from typing import List, Dict, Any, Optional
 
 import ollama
-from langchain.chains import LLMChain
 from langchain_core.prompts import PromptTemplate
 from langchain_core.documents import Document
-from langchain_community.llms import Ollama as LangchainOllama
+from langchain_core.output_parsers import StrOutputParser
+
+# Updated imports to avoid deprecation warnings
+try:
+    from langchain_ollama import OllamaLLM
+except ImportError:
+    # Fallback to the old import if the new package isn't installed
+    print("Warning: langchain-ollama not installed. Install with: pip install -U langchain-ollama")
+    from langchain_community.llms import Ollama as OllamaLLM
 
 from .retriever import retriever
 from .cache import cache
@@ -88,7 +95,7 @@ class FFmpegLLMEngine:
                 return
 
             logger.info(f"Initializing LLM with model: {self.model_name}")
-            self.llm = LangchainOllama(model=self.model_name)
+            self.llm = OllamaLLM(model=self.model_name)
             logger.info("LLM initialized successfully")
 
         except Exception as e:
@@ -284,16 +291,18 @@ class FFmpegLLMEngine:
                 template=FFMPEG_PROMPT_TEMPLATE
             )
 
-            # Create chain
-            chain = LLMChain(llm=self.llm, prompt=prompt)
+            # Create chain using the new LCEL (LangChain Expression Language) syntax
+            # This replaces the deprecated LLMChain
+            output_parser = StrOutputParser()
+            chain = prompt | self.llm | output_parser
 
-            # Run chain
+            # Run chain using invoke instead of the deprecated run method
             logger.info(f"Generating response for query: {query}")
-            response = chain.run(
-                context=context,
-                query=query,
-                format_instructions=format_instructions
-            )
+            response = chain.invoke({
+                "context": context,
+                "query": query,
+                "format_instructions": format_instructions
+            })
 
             # Parse response
             result = self._parse_response(response, code, explain)

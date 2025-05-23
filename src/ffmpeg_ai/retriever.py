@@ -6,7 +6,15 @@ from pathlib import Path
 
 import chromadb
 from chromadb.config import Settings
-from langchain_chroma import Chroma
+
+# Updated import to avoid deprecation warnings
+try:
+    from langchain_chroma import Chroma
+except ImportError:
+    # Fallback to the old import if the new package isn't installed
+    print("Warning: langchain-chroma not installed. Install with: pip install -U langchain-chroma")
+    from langchain_community.vectorstores import Chroma
+
 from langchain_huggingface import HuggingFaceEmbeddings
 from langchain.schema import Document
 

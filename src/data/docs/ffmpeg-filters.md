@@ -626,173 +626,171 @@
       * 11.189.1 Commands
     * 11.190 pixscope
       * 11.190.1 Commands
-    * 11.191 pp
-      * 11.191.1 Examples
-    * 11.192 pp7
-    * 11.193 premultiply
-    * 11.194 prewitt
+    * 11.191 pp7
+    * 11.192 premultiply
+    * 11.193 prewitt
+      * 11.193.1 Commands
+    * 11.194 pseudocolor
       * 11.194.1 Commands
-    * 11.195 pseudocolor
-      * 11.195.1 Commands
-      * 11.195.2 Examples
-    * 11.196 psnr
-      * 11.196.1 Examples
-    * 11.197 pullup
-    * 11.198 qp
-      * 11.198.1 Examples
-    * 11.199 qrencode
-      * 11.199.1 qrencode Expressions
-      * 11.199.2 qrencode Text expansion
-      * 11.199.3 Examples
-    * 11.200 quirc
-    * 11.201 random
-    * 11.202 readeia608
-      * 11.202.1 Commands
-      * 11.202.2 Examples
-    * 11.203 readvitc
-      * 11.203.1 Examples
-    * 11.204 remap
-    * 11.205 removegrain
-    * 11.206 removelogo
-    * 11.207 repeatfields
-    * 11.208 reverse
-      * 11.208.1 Examples
-    * 11.209 rgbashift
+      * 11.194.2 Examples
+    * 11.195 psnr
+      * 11.195.1 Examples
+    * 11.196 pullup
+    * 11.197 qp
+      * 11.197.1 Examples
+    * 11.198 qrencode
+      * 11.198.1 qrencode Expressions
+      * 11.198.2 qrencode Text expansion
+      * 11.198.3 Examples
+    * 11.199 quirc
+    * 11.200 random
+    * 11.201 readeia608
+      * 11.201.1 Commands
+      * 11.201.2 Examples
+    * 11.202 readvitc
+      * 11.202.1 Examples
+    * 11.203 remap
+    * 11.204 removegrain
+    * 11.205 removelogo
+    * 11.206 repeatfields
+    * 11.207 reverse
+      * 11.207.1 Examples
+    * 11.208 rgbashift
+      * 11.208.1 Commands
+    * 11.209 roberts
       * 11.209.1 Commands
-    * 11.210 roberts
-      * 11.210.1 Commands
-    * 11.211 rotate
-      * 11.211.1 Examples
-      * 11.211.2 Commands
-    * 11.212 sab
-    * 11.213 scale
-      * 11.213.1 Options
-      * 11.213.2 Examples
-      * 11.213.3 Commands
-    * 11.214 scale_vt
-    * 11.215 scharr
+    * 11.210 rotate
+      * 11.210.1 Examples
+      * 11.210.2 Commands
+    * 11.211 sab
+    * 11.212 scale
+      * 11.212.1 Options
+      * 11.212.2 Examples
+      * 11.212.3 Commands
+    * 11.213 scale_vt
+    * 11.214 scharr
+      * 11.214.1 Commands
+    * 11.215 scroll
       * 11.215.1 Commands
-    * 11.216 scroll
-      * 11.216.1 Commands
-    * 11.217 scdet
-    * 11.218 selectivecolor
-      * 11.218.1 Examples
-    * 11.219 separatefields
-    * 11.220 setdar, setsar
-      * 11.220.1 Examples
-    * 11.221 setfield
-    * 11.222 setparams
-    * 11.223 shear
-      * 11.223.1 Commands
-    * 11.224 showinfo
-    * 11.225 showpalette
-    * 11.226 shuffleframes
-      * 11.226.1 Examples
-    * 11.227 shufflepixels
-    * 11.228 shuffleplanes
+    * 11.216 scdet
+    * 11.217 selectivecolor
+      * 11.217.1 Examples
+    * 11.218 separatefields
+    * 11.219 setdar, setsar
+      * 11.219.1 Examples
+    * 11.220 setfield
+    * 11.221 setparams
+    * 11.222 shear
+      * 11.222.1 Commands
+    * 11.223 showinfo
+    * 11.224 showpalette
+    * 11.225 shuffleframes
+      * 11.225.1 Examples
+    * 11.226 shufflepixels
+    * 11.227 shuffleplanes
+      * 11.227.1 Examples
+    * 11.228 signalstats
       * 11.228.1 Examples
-    * 11.229 signalstats
+    * 11.229 signature
       * 11.229.1 Examples
-    * 11.230 signature
+    * 11.230 siti
       * 11.230.1 Examples
-    * 11.231 siti
-      * 11.231.1 Examples
-    * 11.232 smartblur
-    * 11.233 sobel
+    * 11.231 smartblur
+    * 11.232 sobel
+      * 11.232.1 Commands
+    * 11.233 spp
       * 11.233.1 Commands
-    * 11.234 spp
-      * 11.234.1 Commands
-    * 11.235 sr
-    * 11.236 sr_amf
+    * 11.234 sr
+    * 11.235 sr_amf
+      * 11.235.1 Examples
+    * 11.236 ssim
       * 11.236.1 Examples
-    * 11.237 ssim
+    * 11.237 stereo3d
       * 11.237.1 Examples
-    * 11.238 stereo3d
-      * 11.238.1 Examples
-    * 11.239 streamselect, astreamselect
-      * 11.239.1 Commands
-      * 11.239.2 Examples
-    * 11.240 subtitles
-    * 11.241 super2xsai
-    * 11.242 swaprect
-      * 11.242.1 Commands
-    * 11.243 swapuv
-    * 11.244 tblend
-    * 11.245 telecine
-    * 11.246 thistogram
-    * 11.247 threshold
-      * 11.247.1 Commands
-      * 11.247.2 Examples
-    * 11.248 thumbnail
+    * 11.238 streamselect, astreamselect
+      * 11.238.1 Commands
+      * 11.238.2 Examples
+    * 11.239 subtitles
+    * 11.240 super2xsai
+    * 11.241 swaprect
+      * 11.241.1 Commands
+    * 11.242 swapuv
+    * 11.243 tblend
+    * 11.244 telecine
+    * 11.245 thistogram
+    * 11.246 threshold
+      * 11.246.1 Commands
+      * 11.246.2 Examples
+    * 11.247 thumbnail
+      * 11.247.1 Examples
+    * 11.248 tile
       * 11.248.1 Examples
-    * 11.249 tile
-      * 11.249.1 Examples
-    * 11.250 tiltandshift
-    * 11.251 tinterlace
-    * 11.252 tmedian
-      * 11.252.1 Commands
-    * 11.253 tmidequalizer
-    * 11.254 tmix
-      * 11.254.1 Examples
-      * 11.254.2 Commands
-    * 11.255 tonemap
-      * 11.255.1 Options
-    * 11.256 tpad
-    * 11.257 transpose
-    * 11.258 trim
-    * 11.259 unpremultiply
-    * 11.260 unsharp
+    * 11.249 tiltandshift
+    * 11.250 tinterlace
+    * 11.251 tmedian
+      * 11.251.1 Commands
+    * 11.252 tmidequalizer
+    * 11.253 tmix
+      * 11.253.1 Examples
+      * 11.253.2 Commands
+    * 11.254 tonemap
+      * 11.254.1 Options
+    * 11.255 tpad
+    * 11.256 transpose
+    * 11.257 trim
+    * 11.258 unpremultiply
+    * 11.259 unsharp
+      * 11.259.1 Examples
+    * 11.260 untile
       * 11.260.1 Examples
-    * 11.261 untile
-      * 11.261.1 Examples
-    * 11.262 uspp
-    * 11.263 v360
-      * 11.263.1 Examples
-      * 11.263.2 Commands
-    * 11.264 vaguedenoiser
-    * 11.265 varblur
-      * 11.265.1 Commands
-    * 11.266 vectorscope
-    * 11.267 vidstabdetect
-      * 11.267.1 Examples
-    * 11.268 vidstabtransform
-      * 11.268.1 Options
-      * 11.268.2 Examples
-    * 11.269 vflip
-    * 11.270 vfrdet
-    * 11.271 vibrance
-      * 11.271.1 Commands
-    * 11.272 vif
-    * 11.273 vignette
-      * 11.273.1 Expressions
-      * 11.273.2 Examples
-    * 11.274 vmafmotion
-    * 11.275 vpp_amf
-      * 11.275.1 Examples
-    * 11.276 vstack
-    * 11.277 w3fdif
-      * 11.277.1 Commands
-    * 11.278 waveform
-    * 11.279 weave, doubleweave
-      * 11.279.1 Examples
-    * 11.280 xbr
-    * 11.281 xcorrelate
-    * 11.282 xfade
-      * 11.282.1 Examples
-    * 11.283 xmedian
-      * 11.283.1 Commands
-    * 11.284 xpsnr
+    * 11.261 uspp
+    * 11.262 v360
+      * 11.262.1 Examples
+      * 11.262.2 Commands
+    * 11.263 vaguedenoiser
+    * 11.264 varblur
+      * 11.264.1 Commands
+    * 11.265 vectorscope
+    * 11.266 vidstabdetect
+      * 11.266.1 Examples
+    * 11.267 vidstabtransform
+      * 11.267.1 Options
+      * 11.267.2 Examples
+    * 11.268 vflip
+    * 11.269 vfrdet
+    * 11.270 vibrance
+      * 11.270.1 Commands
+    * 11.271 vif
+    * 11.272 vignette
+      * 11.272.1 Expressions
+      * 11.272.2 Examples
+    * 11.273 vmafmotion
+    * 11.274 vpp_amf
+      * 11.274.1 Examples
+    * 11.275 vstack
+    * 11.276 w3fdif
+      * 11.276.1 Commands
+    * 11.277 waveform
+    * 11.278 weave, doubleweave
+      * 11.278.1 Examples
+    * 11.279 xbr
+    * 11.280 xcorrelate
+    * 11.281 xfade
+      * 11.281.1 Examples
+    * 11.282 xmedian
+      * 11.282.1 Commands
+    * 11.283 xpsnr
+      * 11.283.1 Examples
+    * 11.284 xstack
       * 11.284.1 Examples
-    * 11.285 xstack
-      * 11.285.1 Examples
-    * 11.286 yadif
-    * 11.287 yaepblur
-      * 11.287.1 Commands
-    * 11.288 zoompan
-      * 11.288.1 Examples
-    * 11.289 zscale
-      * 11.289.1 Options
-      * 11.289.2 Commands
+    * 11.285 yadif
+    * 11.286 yaepblur
+      * 11.286.1 Commands
+    * 11.287 zoompan
+      * 11.287.1 Examples
+    * 11.288 zscale
+      * 11.288.1 Options
+      * 11.288.2 Commands
   * 12 CUDA Video Filters
     * 12.1 CUDA
       * 12.1.1 bilateral_cuda
@@ -27410,274 +27408,7 @@ Set window Y position, relative offset on Y axis.
 
 This filter supports same commands as options.
 
-### 11.191 pp
-
-Enable the specified chain of postprocessing subfilters using libpostproc.
-This library should be automatically selected with a GPL build (`--enable-
-gpl`). Subfilters must be separated by '/' and can be disabled by prepending a
-'-'. Each subfilter and some options have a short and a long name that can be
-used interchangeably, i.e. dr/dering are the same.
-
-The filters accept the following options:
-
-subfilters
-
-    
-
-Set postprocessing subfilters string.
-
-All subfilters share common options to determine their scope:
-
-a/autoq
-
-    
-
-Honor the quality commands for this subfilter.
-
-c/chrom
-
-    
-
-Do chrominance filtering, too (default).
-
-y/nochrom
-
-    
-
-Do luma filtering only (no chrominance).
-
-n/noluma
-
-    
-
-Do chrominance filtering only (no luma).
-
-These options can be appended after the subfilter name, separated by a '|'.
-
-Available subfilters are:
-
-hb/hdeblock[|difference[|flatness]]
-
-    
-
-Horizontal deblocking filter
-
-difference
-
-    
-
-Difference factor where higher values mean more deblocking (default: `32`).
-
-flatness
-
-    
-
-Flatness threshold where lower values mean more deblocking (default: `39`).
-
-vb/vdeblock[|difference[|flatness]]
-
-    
-
-Vertical deblocking filter
-
-difference
-
-    
-
-Difference factor where higher values mean more deblocking (default: `32`).
-
-flatness
-
-    
-
-Flatness threshold where lower values mean more deblocking (default: `39`).
-
-ha/hadeblock[|difference[|flatness]]
-
-    
-
-Accurate horizontal deblocking filter
-
-difference
-
-    
-
-Difference factor where higher values mean more deblocking (default: `32`).
-
-flatness
-
-    
-
-Flatness threshold where lower values mean more deblocking (default: `39`).
-
-va/vadeblock[|difference[|flatness]]
-
-    
-
-Accurate vertical deblocking filter
-
-difference
-
-    
-
-Difference factor where higher values mean more deblocking (default: `32`).
-
-flatness
-
-    
-
-Flatness threshold where lower values mean more deblocking (default: `39`).
-
-The horizontal and vertical deblocking filters share the difference and
-flatness values so you cannot set different horizontal and vertical
-thresholds.
-
-h1/x1hdeblock
-
-    
-
-Experimental horizontal deblocking filter
-
-v1/x1vdeblock
-
-    
-
-Experimental vertical deblocking filter
-
-dr/dering
-
-    
-
-Deringing filter
-
-tn/tmpnoise[|threshold1[|threshold2[|threshold3]]], temporal noise reducer
-
-    
-
-threshold1
-
-    
-
-larger -> stronger filtering
-
-threshold2
-
-    
-
-larger -> stronger filtering
-
-threshold3
-
-    
-
-larger -> stronger filtering
-
-al/autolevels[:f/fullyrange], automatic brightness / contrast correction
-
-    
-
-f/fullyrange
-
-    
-
-Stretch luma to `0-255`.
-
-lb/linblenddeint
-
-    
-
-Linear blend deinterlacing filter that deinterlaces the given block by
-filtering all lines with a `(1 2 1)` filter.
-
-li/linipoldeint
-
-    
-
-Linear interpolating deinterlacing filter that deinterlaces the given block by
-linearly interpolating every second line.
-
-ci/cubicipoldeint
-
-    
-
-Cubic interpolating deinterlacing filter deinterlaces the given block by
-cubically interpolating every second line.
-
-md/mediandeint
-
-    
-
-Median deinterlacing filter that deinterlaces the given block by applying a
-median filter to every second line.
-
-fd/ffmpegdeint
-
-    
-
-FFmpeg deinterlacing filter that deinterlaces the given block by filtering
-every second line with a `(-1 4 2 4 -1)` filter.
-
-l5/lowpass5
-
-    
-
-Vertically applied FIR lowpass deinterlacing filter that deinterlaces the
-given block by filtering all lines with a `(-1 2 6 2 -1)` filter.
-
-fq/forceQuant[|quantizer]
-
-    
-
-Overrides the quantizer table from the input with the constant quantizer you
-specify.
-
-quantizer
-
-    
-
-Quantizer to use
-
-de/default
-
-    
-
-Default pp filter combination (`hb|a,vb|a,dr|a`)
-
-fa/fast
-
-    
-
-Fast pp filter combination (`h1|a,v1|a,dr|a`)
-
-ac
-
-    
-
-High quality pp filter combination (`ha|a|128|7,va|a,dr|a`)
-
-#### 11.191.1 Examples
-
-  * Apply horizontal and vertical deblocking, deringing and automatic brightness/contrast: 
-        
-        pp=hb/vb/dr/al
-        
-
-  * Apply default filters without brightness/contrast correction: 
-        
-        pp=de/-al
-        
-
-  * Apply default filters and temporal denoiser: 
-        
-        pp=default/tmpnoise|1|2|3
-        
-
-  * Apply deblocking on luma only, and switch vertical deblocking on or off automatically depending on available CPU time: 
-        
-        pp=hb|y/vb|a
-        
-
-### 11.192 pp7
+### 11.191 pp7
 
 Apply Postprocessing filter 7. It is variant of the spp filter, similar to spp
 = 6 with 7 point DCT, where only the center sample is used after IDCT.
@@ -27716,7 +27447,7 @@ Set soft thresholding (better de-ringing effect, but likely blurrier).
 
 Set medium thresholding (good results, default).
 
-### 11.193 premultiply
+### 11.192 premultiply
 
 Apply alpha premultiply effect to input video stream using first plane of
 second stream as alpha.
@@ -27739,7 +27470,7 @@ inplace
 Do not require 2nd input for processing, instead use alpha plane from input
 stream.
 
-### 11.194 prewitt
+### 11.193 prewitt
 
 Apply prewitt operator to input video stream.
 
@@ -27764,11 +27495,11 @@ delta
 
 Set value which will be added to filtered result.
 
-#### 11.194.1 Commands
+#### 11.193.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.195 pseudocolor
+### 11.194 pseudocolor
 
 Alter frame colors in video with pseudocolors.
 
@@ -27894,18 +27625,18 @@ The maximum allowed component value.
 
 All expressions default to "val".
 
-#### 11.195.1 Commands
+#### 11.194.1 Commands
 
 This filter supports the all above options as commands.
 
-#### 11.195.2 Examples
+#### 11.194.2 Examples
 
   * Change too high luma values to gradient: 
         
         pseudocolor="'if(between(val,ymax,amax),lerp(ymin,ymax,(val-ymax)/(amax-ymax)),-1):if(between(val,ymax,amax),lerp(umax,umin,(val-ymax)/(amax-ymax)),-1):if(between(val,ymax,amax),lerp(vmin,vmax,(val-ymax)/(amax-ymax)),-1):-1'"
         
 
-### 11.196 psnr
+### 11.195 psnr
 
 Obtain the average, maximum and minimum PSNR (Peak Signal to Noise Ratio)
 between two input videos.
@@ -28012,7 +27743,7 @@ max_avg, max_y, max_u, max_v
 
 Maximum allowed value for each channel, and average over all channels.
 
-#### 11.196.1 Examples
+#### 11.195.1 Examples
 
   * For example: 
         
@@ -28028,7 +27759,7 @@ file ref_movie.mpg. The PSNR of each individual frame is stored in stats.log.
         ffmpeg -i main.mpg -i ref.mkv -lavfi  "[0:v]settb=AVTB,setpts=PTS-STARTPTS[main];[1:v]settb=AVTB,setpts=PTS-STARTPTS[ref];[main][ref]psnr" -f null -
         
 
-### 11.197 pullup
+### 11.196 pullup
 
 Pulldown reversal (inverse telecine) filter, capable of handling mixed hard-
 telecine, 24000/1001 fps progressive, and 30000/1001 fps progressive content.
@@ -28111,7 +27842,7 @@ NTSC input:
     ffmpeg -i input -vf pullup -r 24000/1001 ...
     
 
-### 11.198 qp
+### 11.197 qp
 
 Change video quantization parameters (QP).
 
@@ -28138,14 +27869,14 @@ qp
 
 Sequential index starting from -129 to 128.
 
-#### 11.198.1 Examples
+#### 11.197.1 Examples
 
   * Some equation like: 
         
         qp=2+2*sin(PI*qp)
         
 
-### 11.199 qrencode
+### 11.198 qrencode
 
 Generate a QR code using the libqrencode library (see
 <https://fukuchi.org/works/qrencode/>), and overlay it on top of the current
@@ -28250,7 +27981,7 @@ Set the QR code and background color. The default value of foreground_color is
 For the syntax of the color options, check the [(ffmpeg-utils)"Color" section
 in the ffmpeg-utils manual](ffmpeg-utils.html#color-syntax).
 
-#### 11.199.1 qrencode Expressions
+#### 11.198.1 qrencode Expressions
 
 The expressions set by the options contain the following constants and
 functions.
@@ -28346,7 +28077,7 @@ the x and y offset coordinates where the text is drawn.
 These parameters allow the x and y expressions to refer to each other, so you
 can for example specify `y=x/dar`.
 
-#### 11.199.2 qrencode Text expansion
+#### 11.198.2 qrencode Text expansion
 
 If expansion is set to `none`, the text is printed verbatim.
 
@@ -28457,7 +28188,7 @@ available.
 
 return a random number included between min and max
 
-#### 11.199.3 Examples
+#### 11.198.3 Examples
 
   * Generate a QR code encoding the specified text with the default size, overalaid in the top left corner of the input video, with the default size: 
         
@@ -28504,7 +28235,7 @@ return a random number included between min and max
         qrencode=text=%{pts}
         
 
-### 11.200 quirc
+### 11.199 quirc
 
 Identify and decode a QR code using the libquirc library (see
 <https://github.com/dlbeer/quirc/>), and print the identified QR codes
@@ -28540,7 +28271,7 @@ lavfi.quirc.N.payload
 
 the payload of the QR code
 
-### 11.201 random
+### 11.200 random
 
 Flush video frames from internal cache of frames into a random order. No frame
 is discarded. Inspired by frei0r nervous filter.
@@ -28560,7 +28291,7 @@ Set seed for random number generator, must be an integer included between `0`
 and `UINT32_MAX`. If not specified, or if explicitly set to less than `0`, the
 filter will try to use a good random seed on a best effort basis.
 
-### 11.202 readeia608
+### 11.201 readeia608
 
 Read closed captioning (EIA-608) information from the top lines of a video
 frame.
@@ -28615,18 +28346,18 @@ lp
 
 Lowpass lines prior to further processing. Default is enabled.
 
-#### 11.202.1 Commands
+#### 11.201.1 Commands
 
 This filter supports the all above options as commands.
 
-#### 11.202.2 Examples
+#### 11.201.2 Examples
 
   * Output a csv with presentation time and the first two lines of identified EIA-608 captioning data. 
         
         ffprobe -f lavfi -i movie=captioned_video.mov,readeia608 -show_entries frame=pts_time:frame_tags=lavfi.readeia608.0.cc,lavfi.readeia608.1.cc -of csv
         
 
-### 11.203 readvitc
+### 11.202 readvitc
 
 Read vertical interval timecode (VITC) information from the top lines of a
 video frame.
@@ -28661,14 +28392,14 @@ Set the luma threshold for white. Accepts float numbers in the range
 [0.0,1.0], default value is `0.6`. The value must be equal or greater than
 `thr_b`.
 
-#### 11.203.1 Examples
+#### 11.202.1 Examples
 
   * Detect and draw VITC data onto the video frame; if no valid VITC is detected, draw `--:--:--:--` as a placeholder: 
         
         ffmpeg -i input.avi -filter:v 'readvitc,drawtext=fontfile=FreeMono.ttf:text=%{metadata\\:lavfi.readvitc.tc_str\\:--\\\\\\:--\\\\\\:--\\\\\\:--}:x=(w-tw)/2:y=400-ascent'
         
 
-### 11.204 remap
+### 11.203 remap
 
 Remap pixels using 2nd: Xmap and 3rd: Ymap input video stream.
 
@@ -28695,7 +28426,7 @@ Specify the color of the unmapped pixels. For the syntax of this option, check
 the [(ffmpeg-utils)"Color" section in the ffmpeg-utils manual](ffmpeg-
 utils.html#color-syntax). Default color is `black`.
 
-### 11.205 removegrain
+### 11.204 removegrain
 
 The removegrain filter is a spatial denoiser for progressive video.
 
@@ -28882,7 +28613,7 @@ Small edge and halo removal, but reputed useless.
 
 Similar as 23.
 
-### 11.206 removelogo
+### 11.205 removelogo
 
 Suppress a TV station logo, using an image file to determine which pixels
 comprise the logo. It works by filling in the pixels that comprise the logo
@@ -28912,26 +28643,26 @@ the amount of blurring needed to cover over the image and will destroy more
 information than necessary, and extra pixels will slow things down on a large
 logo.
 
-### 11.207 repeatfields
+### 11.206 repeatfields
 
 This filter uses the repeat_field flag from the Video ES headers and hard
 repeats fields based on its value.
 
-### 11.208 reverse
+### 11.207 reverse
 
 Reverse a video clip.
 
 Warning: This filter requires memory to buffer the entire clip, so trimming is
 suggested.
 
-#### 11.208.1 Examples
+#### 11.207.1 Examples
 
   * Take the first 5 seconds of a clip, and reverse it. 
         
         trim=end=5,reverse
         
 
-### 11.209 rgbashift
+### 11.208 rgbashift
 
 Shift R/G/B/A pixels horizontally and/or vertically.
 
@@ -28991,11 +28722,11 @@ edge
 
 Set edge mode, can be smear, default, or warp.
 
-#### 11.209.1 Commands
+#### 11.208.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.210 roberts
+### 11.209 roberts
 
 Apply roberts cross operator to input video stream.
 
@@ -29020,11 +28751,11 @@ delta
 
 Set value which will be added to filtered result.
 
-#### 11.210.1 Commands
+#### 11.209.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.211 rotate
+### 11.210 rotate
 
 Rotate video by an arbitrary angle expressed in radians.
 
@@ -29129,7 +28860,7 @@ rotated by a radians.
 
 These are only available when computing the out_w and out_h expressions.
 
-#### 11.211.1 Examples
+#### 11.210.1 Examples
 
   * Rotate the input by PI/6 radians clockwise: 
         
@@ -29166,7 +28897,7 @@ These are only available when computing the out_w and out_h expressions.
         rotate=2*PI*t:ow='min(iw,ih)/sqrt(2)':oh=ow:c=none
         
 
-#### 11.211.2 Commands
+#### 11.210.2 Commands
 
 The filter supports the following commands:
 
@@ -29179,7 +28910,7 @@ corresponding option.
 
 If the specified expression is not valid, it is kept at its current value.
 
-### 11.212 sab
+### 11.211 sab
 
 Apply Shape Adaptive Blur.
 
@@ -29230,7 +28961,7 @@ value in the -0.9-100.0 range.
 Each chroma option value, if not explicitly specified, is set to the
 corresponding luma option value.
 
-### 11.213 scale
+### 11.212 scale
 
 Scale (resize) the input video, using the libswscale library.
 
@@ -29240,7 +28971,7 @@ input, by changing the output sample aspect ratio.
 If the input image format is different from the format requested by the next
 filter, the scale filter will convert the input to the requested format.
 
-#### 11.213.1 Options
+#### 11.212.1 Options
 
 The filter accepts the following options, any of the options supported by the
 libswscale scaler, as well as any of the framesync options.
@@ -29772,7 +29503,7 @@ ref_pos
 Eqvuialent to the above, but for a second reference input. If any of these
 variables are present, this filter accepts two inputs.
 
-#### 11.213.2 Examples
+#### 11.212.2 Examples
 
   * Scale the input video to a size of 200x100 
         
@@ -29883,7 +29614,7 @@ which can also be written as:
         [logo-in][video-in]scale=w=oh*dar:h=rh/10[logo-out]
         
 
-#### 11.213.3 Commands
+#### 11.212.3 Commands
 
 This filter supports the following commands:
 
@@ -29898,7 +29629,7 @@ of the corresponding option.
 
 If the specified expression is not valid, it is kept at its current value.
 
-### 11.214 scale_vt
+### 11.213 scale_vt
 
 Scale and convert the color parameters using VTPixelTransferSession.
 
@@ -29931,7 +29662,7 @@ color_transfer
 
 Set the output transfer characteristics.
 
-### 11.215 scharr
+### 11.214 scharr
 
 Apply scharr operator to input video stream.
 
@@ -29956,11 +29687,11 @@ delta
 
 Set value which will be added to filtered result.
 
-#### 11.215.1 Commands
+#### 11.214.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.216 scroll
+### 11.215 scroll
 
 Scroll input video horizontally and/or vertically by constant speed.
 
@@ -29994,7 +29725,7 @@ vpos
 Set the initial vertical scrolling position. Default is 0. Allowed range is
 from 0 to 1.
 
-#### 11.216.1 Commands
+#### 11.215.1 Commands
 
 This filter supports the following commands:
 
@@ -30010,7 +29741,7 @@ vertical, v
 
 Set the vertical scrolling speed.
 
-### 11.217 scdet
+### 11.216 scdet
 
 Detect video scene change.
 
@@ -30048,7 +29779,7 @@ sc_pass, s
 Set the flag to pass scene change frames to the next filter. Default value is
 `0` You can enable it if you want to get snapshot of scene change frames only.
 
-### 11.218 selectivecolor
+### 11.217 selectivecolor
 
 Adjust cyan, magenta, yellow and black (CMYK) to certain ranges of colors
 (such as "reds", "yellows", "greens", "cyans", ...). The adjustment range is
@@ -30148,7 +29879,7 @@ separated floating point adjustment values in the [-1,1] range, respectively
 to adjust the amount of cyan, magenta, yellow and black for the pixels of its
 range.
 
-#### 11.218.1 Examples
+#### 11.217.1 Examples
 
   * Increase cyan by 50% and reduce yellow by 33% in every green areas, and increase magenta by 27% in blue areas: 
         
@@ -30160,7 +29891,7 @@ range.
         selectivecolor=psfile=MySelectiveColorPresets/Misty.asv
         
 
-### 11.219 separatefields
+### 11.218 separatefields
 
 The `separatefields` takes a frame-based video input and splits each frame
 into its components fields, producing a new half height clip with twice the
@@ -30170,7 +29901,7 @@ This filter use field-dominance information in frame to decide which of each
 pair of fields to place first in the output. If it gets it wrong use setfield
 filter before `separatefields` filter.
 
-### 11.220 setdar, setsar
+### 11.219 setdar, setsar
 
 The `setdar` filter sets the Display Aspect Ratio for the filter output video.
 
@@ -30250,7 +29981,7 @@ hsub, vsub
 Horizontal and vertical chroma subsample values. For example, for the pixel
 format "yuv422p" hsub is 2 and vsub is 1.
 
-#### 11.220.1 Examples
+#### 11.219.1 Examples
 
   * To change the display aspect ratio to 16:9, specify one of the following: 
         
@@ -30268,7 +29999,7 @@ format "yuv422p" hsub is 2 and vsub is 1.
         setdar=ratio=16/9:max=1000
         
 
-### 11.221 setfield
+### 11.220 setfield
 
 Force field for the output video frame.
 
@@ -30309,7 +30040,7 @@ Mark the frame as top-field-first.
 
 Mark the frame as progressive.
 
-### 11.222 setparams
+### 11.221 setparams
 
 Force frame parameter for the output video frame.
 
@@ -30525,7 +30256,7 @@ Keep the same chroma location (default).
 
 'bottom'
 
-### 11.223 shear
+### 11.222 shear
 
 Apply shear transform to input video.
 
@@ -30563,11 +30294,11 @@ interp
 
 Set interpolation type. Can be `bilinear` or `nearest`. Default is `bilinear`.
 
-#### 11.223.1 Commands
+#### 11.222.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.224 showinfo
+### 11.223 showinfo
 
 Show a line containing various information for each input video frame. The
 input video is not modified.
@@ -30681,7 +30412,7 @@ stdev
 The standard deviation of pixel values in each plane of the input frame,
 expressed in the form "[stdev0 stdev1 stdev2 stdev3]".
 
-### 11.225 showpalette
+### 11.224 showpalette
 
 Displays the 256 colors palette of each frame. This filter is only relevant
 for pal8 pixel format frames.
@@ -30695,7 +30426,7 @@ s
 Set the size of the box used to represent one palette color entry. Default is
 `30` (for a `30x30` pixel box).
 
-### 11.226 shuffleframes
+### 11.225 shuffleframes
 
 Reorder and/or duplicate and/or drop video frames.
 
@@ -30712,7 +30443,7 @@ meaning and that is to drop frame.
 
 The first frame has the index 0. The default is to keep the input unchanged.
 
-#### 11.226.1 Examples
+#### 11.225.1 Examples
 
   * Swap second and third frame of every three frames of the input: 
         
@@ -30724,7 +30455,7 @@ The first frame has the index 0. The default is to keep the input unchanged.
         ffmpeg -i INPUT -vf "shuffleframes=9 1 2 3 4 5 6 7 8 0" OUTPUT
         
 
-### 11.227 shufflepixels
+### 11.226 shufflepixels
 
 Reorder pixels in video frames.
 
@@ -30762,7 +30493,7 @@ reverse filtering process to get original input. For example, to reverse
 forward shuffle you need to use same parameters and exact same seed and to set
 direction to inverse.
 
-### 11.228 shuffleplanes
+### 11.227 shuffleplanes
 
 Reorder and/or duplicate video planes.
 
@@ -30794,14 +30525,14 @@ The index of the input plane to be used as the fourth output plane.
 
 The first plane has the index 0. The default is to keep the input unchanged.
 
-#### 11.228.1 Examples
+#### 11.227.1 Examples
 
   * Swap the second and third planes of the input: 
         
         ffmpeg -i INPUT -vf shuffleplanes=0:2:1:3 OUTPUT
         
 
-### 11.229 signalstats
+### 11.228 signalstats
 
 Evaluate various visual metrics that assist in determining issues associated
 with the digitization of analog video media.
@@ -31047,7 +30778,7 @@ color, c
 
 Set the highlight color for the out option. The default color is yellow.
 
-#### 11.229.1 Examples
+#### 11.228.1 Examples
 
   * Output data of various video metrics: 
         
@@ -31080,7 +30811,7 @@ The contents of signalstat_drawtext.txt used in the command are:
         
         
 
-### 11.230 signature
+### 11.229 signature
 
 Calculates the MPEG-7 Video Signature. The filter can handle more than one
 input. In this case the matching between the inputs can be calculated
@@ -31189,7 +30920,7 @@ th_it
 Set the minimum relation, that matching frames to all frames must have. The
 option value must be a double value between 0 and 1. The default value is 0.5.
 
-#### 11.230.1 Examples
+#### 11.229.1 Examples
 
   * To calculate the signature of an input video and store it in signature.bin: 
         
@@ -31201,7 +30932,7 @@ option value must be a double value between 0 and 1. The default value is 0.5.
         ffmpeg -i input1.mkv -i input2.mkv -filter_complex "[0:v][1:v] signature=nb_inputs=2:detectmode=full:format=xml:filename=signature%d.xml" -map :v -f null -
         
 
-### 11.231 siti
+### 11.230 siti
 
 Calculate Spatial Information (SI) and Temporal Information (TI) scores for a
 video, as defined in ITU-T Rec. P.910 (11/21): Subjective video quality
@@ -31219,14 +30950,14 @@ print_summary
 
 If set to 1, Summary statistics will be printed to the console. Default 0.
 
-#### 11.231.1 Examples
+#### 11.230.1 Examples
 
   * To calculate SI/TI metrics and print summary: 
         
         ffmpeg -i input.mp4 -vf siti=print_summary=1 -f null -
         
 
-### 11.232 smartblur
+### 11.231 smartblur
 
 Blur the input video without impacting the outlines.
 
@@ -31316,7 +31047,7 @@ Default value is luma_threshold.
 If a chroma or alpha option is not explicitly set, the corresponding luma
 value is set.
 
-### 11.233 sobel
+### 11.232 sobel
 
 Apply sobel operator to input video stream.
 
@@ -31341,11 +31072,11 @@ delta
 
 Set value which will be added to filtered result.
 
-#### 11.233.1 Commands
+#### 11.232.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.234 spp
+### 11.233 spp
 
 Apply a simple postprocessing filter that compresses and decompresses the
 image at several (or - in the case of quality level `6` \- all) shifts and
@@ -31395,7 +31126,7 @@ Enable the use of the QP from the B-Frames if set to `1`. Using this option
 may cause flicker since the B-Frames have often larger QP. Default is `0` (not
 enabled).
 
-#### 11.234.1 Commands
+#### 11.233.1 Commands
 
 This filter supports the following commands:
 
@@ -31406,7 +31137,7 @@ quality, level
 Set quality level. The value `max` can be used to set the maximum level,
 currently `6`.
 
-### 11.235 sr
+### 11.234 sr
 
 Scale the input by applying one of the super-resolution methods based on
 convolutional neural networks. Supported models:
@@ -31454,7 +31185,7 @@ input upscaled using bicubic upscaling with proper scale factor.
 To get full functionality (such as async execution), please use the
 dnn_processing filter.
 
-### 11.236 sr_amf
+### 11.235 sr_amf
 
 Upscale (size increasing) for the input video using AMD Advanced Media
 Framework library for hardware acceleration. Use advanced algorithms for
@@ -31537,7 +31268,7 @@ fill
 Specifies whether the output image outside the region of interest, which does
 not fill the entire output surface should be filled with a solid color.
 
-#### 11.236.1 Examples
+#### 11.235.1 Examples
 
   * Scale input to 720p, keeping aspect ratio and ensuring the output is yuv420p. 
         
@@ -31549,7 +31280,7 @@ not fill the entire output surface should be filled with a solid color.
         sr_amf=4096:2160:algorithm=sr1-1
         
 
-### 11.237 ssim
+### 11.236 ssim
 
 Obtain the SSIM (Structural SImilarity Metric) between two input videos.
 
@@ -31604,7 +31335,7 @@ Same as above but in dB representation.
 
 This filter also supports the framesync options.
 
-#### 11.237.1 Examples
+#### 11.236.1 Examples
 
   * For example: 
         
@@ -31625,7 +31356,7 @@ file ref_movie.mpg. The SSIM of each individual frame is stored in stats.log.
         ffmpeg -i main.mpg -i ref.mkv -lavfi  "[0:v]settb=AVTB,setpts=PTS-STARTPTS[main];[1:v]settb=AVTB,setpts=PTS-STARTPTS[ref];[main][ref]ssim" -f null -
         
 
-### 11.238 stereo3d
+### 11.237 stereo3d
 
 Convert between different stereoscopic image formats.
 
@@ -31961,7 +31692,7 @@ HDMI frame pack
 
 Default value is 'arcd'.
 
-#### 11.238.1 Examples
+#### 11.237.1 Examples
 
   * Convert input video from side by side parallel to anaglyph yellow/blue dubois: 
         
@@ -31973,7 +31704,7 @@ Default value is 'arcd'.
         stereo3d=abl:sbsr
         
 
-### 11.239 streamselect, astreamselect
+### 11.238 streamselect, astreamselect
 
 Select video or audio streams.
 
@@ -31991,7 +31722,7 @@ map
 
 Set input indexes to remap to outputs.
 
-#### 11.239.1 Commands
+#### 11.238.1 Commands
 
 The `streamselect` and `astreamselect` filter supports the following commands:
 
@@ -32001,7 +31732,7 @@ map
 
 Set input indexes to remap to outputs.
 
-#### 11.239.2 Examples
+#### 11.238.2 Examples
 
   * Select first 5 seconds 1st stream and rest of time 2nd stream: 
         
@@ -32013,7 +31744,7 @@ Set input indexes to remap to outputs.
         asendcmd='5.0 astreamselect map 1',astreamselect=inputs=2:map=0
         
 
-### 11.240 subtitles
+### 11.239 subtitles
 
 Draw subtitles on top of input video using the libass library.
 
@@ -32123,14 +31854,14 @@ To make the subtitles stream from sub.srt appear in 80% transparent blue
     subtitles=sub.srt:force_style='Fontname=DejaVu Serif,PrimaryColour=&HCCFF0000'
     
 
-### 11.241 super2xsai
+### 11.240 super2xsai
 
 Scale the input by 2x and smooth using the Super2xSaI (Scale and Interpolate)
 pixel art scaling algorithm.
 
 Useful for enlarging pixel art images without reducing sharpness.
 
-### 11.242 swaprect
+### 11.241 swaprect
 
 Swap two rectangular objects in video.
 
@@ -32222,21 +31953,21 @@ pos
 the position in the file of the input frame, NAN if unknown; deprecated, do
 not use
 
-#### 11.242.1 Commands
+#### 11.241.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.243 swapuv
+### 11.242 swapuv
 
 Swap U & V plane.
 
-### 11.244 tblend
+### 11.243 tblend
 
 Blend successive video frames.
 
 See blend
 
-### 11.245 telecine
+### 11.244 telecine
 
 Apply telecine process to the video.
 
@@ -32284,7 +32015,7 @@ default value is `23`.
     16p: 33333334
     
 
-### 11.246 thistogram
+### 11.245 thistogram
 
 Compute and draw a color distribution histogram for the input video across
 time.
@@ -32403,7 +32134,7 @@ Draw single picture.
 
 Default is `replace`.
 
-### 11.247 threshold
+### 11.246 threshold
 
 Apply threshold effect to video stream.
 
@@ -32426,11 +32157,11 @@ picked, otherwise fourth stream pixel component value will be picked.
 
 Using color source filter one can perform various types of thresholding:
 
-#### 11.247.1 Commands
+#### 11.246.1 Commands
 
 This filter supports the all options as commands.
 
-#### 11.247.2 Examples
+#### 11.246.2 Examples
 
   * Binary threshold, using gray color as threshold: 
         
@@ -32457,7 +32188,7 @@ This filter supports the all options as commands.
         ffmpeg -i 320x240.avi -f lavfi -i color=gray -i 320x240.avi -f lavfi -i color=white -lavfi threshold output.avi
         
 
-### 11.248 thumbnail
+### 11.247 thumbnail
 
 Select the most representative frame in a given sequence of consecutive
 frames.
@@ -32481,7 +32212,7 @@ Set the log level to display picked frame stats. Default is `info`.
 Since the filter keeps track of the whole frames sequence, a bigger n value
 will result in a higher memory usage, so a high value is not recommended.
 
-#### 11.248.1 Examples
+#### 11.247.1 Examples
 
   * Extract one picture each 50 frames: 
         
@@ -32493,7 +32224,7 @@ will result in a higher memory usage, so a high value is not recommended.
         ffmpeg -i in.avi -vf thumbnail,scale=300:200 -frames:v 1 out.png
         
 
-### 11.249 tile
+### 11.248 tile
 
 Tile several successive frames together.
 
@@ -32553,7 +32284,7 @@ Set the number of frames to initially be empty before displaying first output
 frame. This controls how soon will one get first output frame. The value must
 be between `0` and nb_frames - 1. Default is `0`.
 
-#### 11.249.1 Examples
+#### 11.248.1 Examples
 
   * Produce 8x8 PNG tiles of all keyframes (-skip_frame nokey) in a movie: 
         
@@ -32568,7 +32299,7 @@ frame to accommodate the originally detected frame rate.
         tile=3x2:nb_frames=5:padding=7:margin=2
         
 
-### 11.250 tiltandshift
+### 11.249 tiltandshift
 
 Apply tilt-and-shift effect.
 
@@ -32651,7 +32382,7 @@ The first frames or the very last frame are kept intact during processing.
 
 Black is padded at the beginning or at the end of filtering.
 
-### 11.251 tinterlace
+### 11.250 tinterlace
 
 Perform various types of temporal field interlacing.
 
@@ -32922,7 +32653,7 @@ Bypass already interlaced frames, only adjust the frame rate.
 Vertical low-pass filtering and bypassing already interlaced frames can only
 be enabled for mode interleave_top and interleave_bottom.
 
-### 11.252 tmedian
+### 11.251 tmedian
 
 Pick median pixels from several successive input video frames.
 
@@ -32949,11 +32680,11 @@ Set median percentile. Default value is `0.5`. Default value of `0.5` will
 pick always median values, while `0` will pick minimum values, and `1` maximum
 values.
 
-#### 11.252.1 Commands
+#### 11.251.1 Commands
 
 This filter supports all above options as commands, excluding option `radius`.
 
-### 11.253 tmidequalizer
+### 11.252 tmidequalizer
 
 Apply Temporal Midway Video Equalization effect.
 
@@ -32982,7 +32713,7 @@ planes
 
 Set which planes to process. Default is `15`, which is all available planes.
 
-### 11.254 tmix
+### 11.253 tmix
 
 Mix successive video frames.
 
@@ -33016,7 +32747,7 @@ planes
 
 Set which planes to filter. Default is all. Allowed range is from 0 to 15.
 
-#### 11.254.1 Examples
+#### 11.253.1 Examples
 
   * Average 7 successive frames: 
         
@@ -33033,7 +32764,7 @@ Set which planes to filter. Default is all. Allowed range is from 0 to 15.
         tmix=frames=3:weights="-1 2 -1":scale=1
         
 
-#### 11.254.2 Commands
+#### 11.253.2 Commands
 
 This filter supports the following commands:
 
@@ -33047,7 +32778,7 @@ planes
 
 Syntax is same as option with same name.
 
-### 11.255 tonemap
+### 11.254 tonemap
 
 Tone map colors from different dynamic ranges.
 
@@ -33063,7 +32794,7 @@ data should be linearized beforehand (and possibly correctly tagged).
     ffmpeg -i INPUT -vf zscale=transfer=linear,tonemap=clip,zscale=transfer=bt709,format=yuv420p OUTPUT
     
 
-#### 11.255.1 Options
+#### 11.254.1 Options
 
 The filter accepts the following options.
 
@@ -33205,7 +32936,7 @@ Override signal/nominal/reference peak with this value. Useful when the
 embedded peak information in display metadata is not reliable or when tone
 mapping from a lower range to a higher range.
 
-### 11.256 tpad
+### 11.255 tpad
 
 Temporarily pad video frames.
 
@@ -33259,7 +32990,7 @@ utils.html#color-syntax).
 
 The default value of color is "black".
 
-### 11.257 transpose
+### 11.256 transpose
 
 Transpose rows with columns in the input video and optionally flip it.
 
@@ -33373,7 +33104,7 @@ The command above can also be specified as:
     transpose=1:portrait
     
 
-### 11.258 trim
+### 11.257 trim
 
 Trim the input so that the output contains one continuous subpart of the
 input.
@@ -33457,7 +33188,7 @@ Examples:
         ffmpeg -i INPUT -vf trim=duration=1
         
 
-### 11.259 unpremultiply
+### 11.258 unpremultiply
 
 Apply alpha unpremultiply effect to input video stream using first plane of
 second stream as alpha.
@@ -33485,7 +33216,7 @@ inplace
 Do not require 2nd input for processing, instead use alpha plane from input
 stream.
 
-### 11.260 unsharp
+### 11.259 unsharp
 
 Sharpen or blur the input video.
 
@@ -33572,7 +33303,7 @@ Default value is 0.0.
 All parameters are optional and default to the equivalent of the string
 '5:5:1.0:5:5:0.0'.
 
-#### 11.260.1 Examples
+#### 11.259.1 Examples
 
   * Apply strong luma sharpen effect: 
         
@@ -33584,7 +33315,7 @@ All parameters are optional and default to the equivalent of the string
         unsharp=7:7:-2:7:7:-2
         
 
-### 11.261 untile
+### 11.260 untile
 
 Decompose a video made of tiled images into the individual images.
 
@@ -33603,14 +33334,14 @@ Set the grid size (i.e. the number of lines and columns). For the syntax of
 this option, check the [(ffmpeg-utils)"Video size" section in the ffmpeg-utils
 manual](ffmpeg-utils.html#video-size-syntax).
 
-#### 11.261.1 Examples
+#### 11.260.1 Examples
 
   * Produce a 1-second video from a still image file made of 25 frames stacked vertically, like an analogic film reel: 
         
         ffmpeg -r 1 -i image.jpg -vf untile=1x25 movie.mkv
         
 
-### 11.262 uspp
+### 11.261 uspp
 
 Apply ultra slow/simple postprocessing filter that compresses and decompresses
 the image at several (or - in the case of quality level `8` \- all) shifts and
@@ -33646,7 +33377,7 @@ codec
 
 Use specified codec instead of snow.
 
-### 11.263 v360
+### 11.262 v360
 
 Convert 360 videos between various formats.
 
@@ -34352,7 +34083,7 @@ reset_rot
 
 Reset rotation of output video. Boolean value, by default disabled.
 
-#### 11.263.1 Examples
+#### 11.262.1 Examples
 
   * Convert equirectangular video to cubemap with 3x2 layout and 1% padding using bicubic interpolation: 
         
@@ -34369,11 +34100,11 @@ Reset rotation of output video. Boolean value, by default disabled.
         v360=eac:equirect:in_stereo=sbs:in_trans=1:ih_flip=1:out_stereo=tb
         
 
-#### 11.263.2 Commands
+#### 11.262.2 Commands
 
 This filter supports subset of above options as commands.
 
-### 11.264 vaguedenoiser
+### 11.263 vaguedenoiser
 
 Apply a wavelet based denoiser.
 
@@ -34467,7 +34198,7 @@ Threshold used depends also on each decomposition coefficients.
 
 Default is universal.
 
-### 11.265 varblur
+### 11.264 varblur
 
 Apply variable blur filter by using 2nd video stream to set blur radius. The
 2nd stream must have the same dimensions.
@@ -34494,11 +34225,11 @@ Set which planes to process. By default, all are used.
 
 The `varblur` filter also supports the framesync options.
 
-#### 11.265.1 Commands
+#### 11.264.1 Commands
 
 This filter supports all the above options as commands.
 
-### 11.266 vectorscope
+### 11.265 vectorscope
 
 Display 2 color component values in the two dimensional graph (which is called
 a vectorscope).
@@ -34700,7 +34431,7 @@ tint1, t1
 Set color tint for gray/tint vectorscope mode. By default both options are
 zero. This means no tint, and output will remain gray.
 
-### 11.267 vidstabdetect
+### 11.266 vidstabdetect
 
 Analyze video stabilization/deshaking. Perform pass 1 of 2, see
 vidstabtransform for pass 2.
@@ -34789,7 +34520,7 @@ Human-readable plain text
 
 Binary format, roughly 40% smaller than `ascii`. (_default_)
 
-#### 11.267.1 Examples
+#### 11.266.1 Examples
 
   * Use default values: 
         
@@ -34811,7 +34542,7 @@ Binary format, roughly 40% smaller than `ascii`. (_default_)
         ffmpeg -i input -vf vidstabdetect=shakiness=5:show=1 dummy.avi
         
 
-### 11.268 vidstabtransform
+### 11.267 vidstabtransform
 
 Video stabilization/deshaking: pass 2 of 2, see vidstabdetect for pass 1.
 
@@ -34823,7 +34554,7 @@ use the unsharp filter, see below.
 To enable compilation of this filter you need to configure FFmpeg with
 `--enable-libvidstab`.
 
-#### 11.268.1 Options
+#### 11.267.1 Options
 
 input
 
@@ -35004,7 +34735,7 @@ debug
 Increase log verbosity if set to 1. Also the detected global motions are
 written to the temporary file global_motions.trf. Default value is 0.
 
-#### 11.268.2 Examples
+#### 11.267.2 Examples
 
   * Use `ffmpeg` for a typical stabilization with default values: 
         
@@ -35023,7 +34754,7 @@ Note the use of the unsharp filter which is always recommended.
         vidstabtransform=smoothing=30
         
 
-### 11.269 vflip
+### 11.268 vflip
 
 Flip the input video vertically.
 
@@ -35034,7 +34765,7 @@ For example, to vertically flip a video with `ffmpeg`:
     ffmpeg -i in.avi -vf "vflip" out.avi
     
 
-### 11.270 vfrdet
+### 11.269 vfrdet
 
 Detect variable frame rate video.
 
@@ -35044,7 +34775,7 @@ At end it will output number of frames detected as having variable delta pts,
 and ones with constant delta pts. If there was frames with variable delta,
 than it will also show min, max and average delta encountered.
 
-### 11.271 vibrance
+### 11.270 vibrance
 
 Boost or alter saturation.
 
@@ -35100,11 +34831,11 @@ alternate
 If `intensity` is negative and this is set to 1, colors will change, otherwise
 colors will be less saturated, more towards gray.
 
-#### 11.271.1 Commands
+#### 11.270.1 Commands
 
 This filter supports the all above options as commands.
 
-### 11.272 vif
+### 11.271 vif
 
 Obtain the average VIF (Visual Information Fidelity) between two input videos.
 
@@ -35128,7 +34859,7 @@ the reference file ref.mpg.
     ffmpeg -i main.mpg -i ref.mpg -lavfi vif -f null -
     
 
-### 11.273 vignette
+### 11.272 vignette
 
 Make or reverse a natural vignetting effect.
 
@@ -35219,7 +34950,7 @@ vignetting following the dimensions of the video.
 
 Default is `1/1`.
 
-#### 11.273.1 Expressions
+#### 11.272.1 Expressions
 
 The alpha, x0 and y0 expressions can contain the following parameters.
 
@@ -35263,7 +34994,7 @@ tb
 
 time base of the input video
 
-#### 11.273.2 Examples
+#### 11.272.2 Examples
 
   * Apply simple strong vignetting effect: 
         
@@ -35275,7 +35006,7 @@ time base of the input video
         vignette='PI/4+random(1)*PI/50':eval=frame
         
 
-### 11.274 vmafmotion
+### 11.273 vmafmotion
 
 Obtain the average VMAF motion score of a video. It is one of the component
 metrics of VMAF.
@@ -35299,7 +35030,7 @@ Example:
     ffmpeg -i ref.mpg -vf vmafmotion -f null -
     
 
-### 11.275 vpp_amf
+### 11.274 vpp_amf
 
 Scale (resize) and convert colorspace, transfer characteristics or color
 primaries for the input video, using AMD Advanced Media Framework library for
@@ -35564,7 +35295,7 @@ SMPTE-432
 
 JEDEC P22 phosphors
 
-#### 11.275.1 Examples
+#### 11.274.1 Examples
 
   * Scale input to 720p, keeping aspect ratio and ensuring the output is yuv420p. 
         
@@ -35576,7 +35307,7 @@ JEDEC P22 phosphors
         vpp_amf=4096:2160:color_profile=bt2020
         
 
-### 11.276 vstack
+### 11.275 vstack
 
 Stack input videos vertically.
 
@@ -35600,7 +35331,7 @@ shortest
 If set to 1, force the output to terminate when the shortest input terminates.
 Default value is 0.
 
-### 11.277 w3fdif
+### 11.276 w3fdif
 
 Deinterlace the input video ("w3fdif" stands for "Weston 3 Field Deinterlacing
 Filter").
@@ -35706,11 +35437,11 @@ Only deinterlace frames marked as interlaced.
 
 Default value is 'all'.
 
-#### 11.277.1 Commands
+#### 11.276.1 Commands
 
 This filter supports same commands as options.
 
-### 11.278 waveform
+### 11.277 waveform
 
 Video waveform monitor.
 
@@ -35987,7 +35718,7 @@ Set input formats for filter to pick from. Can be 'all', for selecting from
 all available formats, or 'first', for selecting first available format.
 Default is 'first'.
 
-### 11.279 weave, doubleweave
+### 11.278 weave, doubleweave
 
 The `weave` takes a field-based video input and join each two sequential
 fields into single frame, producing a new double height clip with half the
@@ -36016,14 +35747,14 @@ Set the frame as top-field-first.
 
 Set the frame as bottom-field-first.
 
-#### 11.279.1 Examples
+#### 11.278.1 Examples
 
   * Interlace video using select and separatefields filter: 
         
         separatefields,select=eq(mod(n,4),0)+eq(mod(n,4),3),weave
         
 
-### 11.280 xbr
+### 11.279 xbr
 
 Apply the xBR high-quality magnification filter which is designed for pixel
 art. It follows a set of edge-detection rules, see
@@ -36038,7 +35769,7 @@ n
 Set the scaling dimension: `2` for `2xBR`, `3` for `3xBR` and `4` for `4xBR`.
 Default is `3`.
 
-### 11.281 xcorrelate
+### 11.280 xcorrelate
 
 Apply normalized cross-correlation between first and second input video
 stream.
@@ -36063,7 +35794,7 @@ stream, can be first or all. Default is all.
 
 The `xcorrelate` filter also supports the framesync options.
 
-### 11.282 xfade
+### 11.281 xfade
 
 Apply cross fade from one input video stream to another input video stream.
 The cross fade is applied for specified duration.
@@ -36287,14 +36018,14 @@ b3(x, y)
 Return the value of the pixel at location (x,y) of the
 first/second/third/fourth component of second input.
 
-#### 11.282.1 Examples
+#### 11.281.1 Examples
 
   * Cross fade from one input video to another input video, with fade transition and duration of transition of 2 seconds starting at offset of 5 seconds: 
         
         ffmpeg -i first.mp4 -i second.mp4 -filter_complex xfade=transition=fade:duration=2:offset=5 output.mp4
         
 
-### 11.283 xmedian
+### 11.282 xmedian
 
 Pick median pixels from several input videos.
 
@@ -36323,11 +36054,11 @@ Set median percentile. Default value is `0.5`. Default value of `0.5` will
 pick always median values, while `0` will pick minimum values, and `1` maximum
 values.
 
-#### 11.283.1 Commands
+#### 11.282.1 Commands
 
 This filter supports all above options as commands, excluding option `inputs`.
 
-### 11.284 xpsnr
+### 11.283 xpsnr
 
 Obtain the average (across all input frames) and minimum (across all color
 plane averages) eXtended Perceptually weighted peak Signal-to-Noise Ratio
@@ -36372,7 +36103,7 @@ data is sent to standard output.
 
 This filter also supports the framesync options.
 
-#### 11.284.1 Examples
+#### 11.283.1 Examples
 
   * XPSNR analysis of two 1080p HD videos, ref_source.yuv and test_video.yuv, both at 24 frames per second, with color format 4:2:0, bit depth 8, and output of a logfile named "xpsnr.log": 
         
@@ -36386,7 +36117,7 @@ This filter also supports the framesync options.
         60 -pix_fmt yuv420p10le -i test_video.yuv -lavfi xpsnr="stats_file=-" -f null -
         
 
-### 11.285 xstack
+### 11.284 xstack
 
 Stack video inputs into custom layout.
 
@@ -36455,7 +36186,7 @@ fill
 If set to valid color, all unused pixels will be filled with that color. By
 default fill is set to none, so it is disabled.
 
-#### 11.285.1 Examples
+#### 11.284.1 Examples
 
   * Display 4 inputs into 2x2 grid. 
 
@@ -36519,7 +36250,7 @@ Layout:
 
 Note that if inputs are of different sizes, gaps or overlaps may occur.
 
-### 11.286 yadif
+### 11.285 yadif
 
 Deinterlace the input video ("yadif" means "yet another deinterlacing
 filter").
@@ -36605,7 +36336,7 @@ Only deinterlace frames marked as interlaced.
 
 The default value is `all`.
 
-### 11.287 yaepblur
+### 11.286 yaepblur
 
 Apply blur filter while preserving edges ("yaepblur" means "yet another edge
 preserving blur filter"). The algorithm is described in "J. S. Lee, Digital
@@ -36632,11 +36363,11 @@ sigma, s
 
 Set blur strength. Default value is 128.
 
-#### 11.287.1 Commands
+#### 11.286.1 Commands
 
 This filter supports same commands as options.
 
-### 11.288 zoompan
+### 11.287 zoompan
 
 Apply Zoom & Pan effect.
 
@@ -36787,7 +36518,7 @@ dar
 
 display aspect ratio
 
-#### 11.288.1 Examples
+#### 11.287.1 Examples
 
   * Zoom in up to 1.5x and pan at same time to some spot near center of picture: 
         
@@ -36809,7 +36540,7 @@ display aspect ratio
         zoompan=z='if(between(in_time,0,1),2,1)':d=1:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)'
         
 
-### 11.289 zscale
+### 11.288 zscale
 
 Scale (resize) the input video, using the z.lib library:
 <https://github.com/sekrit-twc/zimg>. To enable compilation of this filter,
@@ -36821,7 +36552,7 @@ input, by changing the output sample aspect ratio.
 If the input image format is different from the format requested by the next
 filter, the zscale filter will convert the input to the requested format.
 
-#### 11.289.1 Options
+#### 11.288.1 Options
 
 The filter accepts the following options.
 
@@ -37207,7 +36938,7 @@ ovsub
 horizontal and vertical output chroma subsample values. For example for the
 pixel format "yuv422p" hsub is 2 and vsub is 1.
 
-#### 11.289.2 Commands
+#### 11.288.2 Commands
 
 This filter supports the following commands:
 
@@ -46825,7 +46556,7 @@ FFmpeg source directory, or browsing the online repository at
 Maintainers for the specific components are listed in the file MAINTAINERS in
 the source code tree.
 
-This document was generated on _April 25, 2025_ using
+This document was generated on _May 21, 2025_ using
 [_makeinfo_](http://www.gnu.org/software/texinfo/).
 
 Hosting provided by [telepoint.bg](https://telepoint.bg)

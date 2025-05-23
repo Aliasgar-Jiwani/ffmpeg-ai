@@ -2302,6 +2302,24 @@ on by default, to explicitly disable it you need to specify `-nostats`.
 Set period at which encoding progress/statistics are updated. Default is 0.5
 seconds.
 
+-print_graphs (_global_)
+    
+
+Prints execution graph details to stderr in the format set via
+-print_graphs_format.
+
+-print_graphs_file filename (_global_)
+    
+
+Writes execution graph details to the specified file in the format set via
+-print_graphs_format.
+
+-print_graphs_format format (_global_)
+    
+
+Sets the output format (available formats are: default, compact, csv, flat,
+ini, json, xml, mermaid, mermaidhtml) The default format is json.
+
 -progress url (_global_)
     
 
@@ -4715,7 +4733,7 @@ FFmpeg source directory, or browsing the online repository at
 Maintainers for the specific components are listed in the file MAINTAINERS in
 the source code tree.
 
-This document was generated on _April 25, 2025_ using
+This document was generated on _May 21, 2025_ using
 [_makeinfo_](http://www.gnu.org/software/texinfo/).
 
 Hosting provided by [telepoint.bg](https://telepoint.bg)

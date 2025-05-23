@@ -135,64 +135,66 @@
       * 9.7.1 Options
     * 9.8 libaom-av1
       * 9.8.1 Options
-    * 9.9 libsvtav1
+    * 9.9 liboapv
       * 9.9.1 Options
-    * 9.10 libjxl
+    * 9.10 libsvtav1
       * 9.10.1 Options
-    * 9.11 libkvazaar
+    * 9.11 libjxl
       * 9.11.1 Options
-    * 9.12 libopenh264
+    * 9.12 libkvazaar
       * 9.12.1 Options
-    * 9.13 libtheora
+    * 9.13 libopenh264
       * 9.13.1 Options
-      * 9.13.2 Examples
-    * 9.14 libvpx
+    * 9.14 libtheora
       * 9.14.1 Options
-    * 9.15 libvvenc
-      * 9.15.1 Supported Pixel Formats
-      * 9.15.2 Options
-    * 9.16 libwebp
-      * 9.16.1 Pixel Format
+      * 9.14.2 Examples
+    * 9.15 libvpx
+      * 9.15.1 Options
+    * 9.16 libvvenc
+      * 9.16.1 Supported Pixel Formats
       * 9.16.2 Options
-    * 9.17 libx264, libx264rgb
-      * 9.17.1 Supported Pixel Formats
+    * 9.17 libwebp
+      * 9.17.1 Pixel Format
       * 9.17.2 Options
-    * 9.18 libx265
-      * 9.18.1 Options
-    * 9.19 libxavs2
+    * 9.18 libx264, libx264rgb
+      * 9.18.1 Supported Pixel Formats
+      * 9.18.2 Options
+    * 9.19 libx265
       * 9.19.1 Options
-    * 9.20 libxeve
+    * 9.20 libxavs2
       * 9.20.1 Options
-    * 9.21 libxvid
+    * 9.21 libxeve
       * 9.21.1 Options
-    * 9.22 MediaFoundation
-    * 9.23 Microsoft RLE
-      * 9.23.1 Options
-    * 9.24 mpeg2
+    * 9.22 libxvid
+      * 9.22.1 Options
+    * 9.23 MediaFoundation
+    * 9.24 Microsoft RLE
       * 9.24.1 Options
-    * 9.25 png
+    * 9.25 mpeg2
       * 9.25.1 Options
-      * 9.25.2 Private options
-    * 9.26 ProRes
-      * 9.26.1 Private Options for prores-ks
-      * 9.26.2 Speed considerations
-    * 9.27 QSV Encoders
-      * 9.27.1 Ratecontrol Method
-      * 9.27.2 Global Options -> MSDK Options
-      * 9.27.3 Common Options
-      * 9.27.4 Runtime Options
-      * 9.27.5 H264 options
-      * 9.27.6 HEVC Options
-      * 9.27.7 MPEG2 Options
-      * 9.27.8 VP9 Options
-      * 9.27.9 AV1 Options
-    * 9.28 snow
-      * 9.28.1 Options
-    * 9.29 VAAPI encoders
-    * 9.30 vbn
-      * 9.30.1 Options
-    * 9.31 vc2
+    * 9.26 png
+      * 9.26.1 Options
+      * 9.26.2 Private options
+    * 9.27 ProRes
+      * 9.27.1 Private Options for prores-ks
+      * 9.27.2 Speed considerations
+    * 9.28 QSV Encoders
+      * 9.28.1 Ratecontrol Method
+      * 9.28.2 Global Options -> MSDK Options
+      * 9.28.3 Common Options
+      * 9.28.4 Runtime Options
+      * 9.28.5 H264 options
+      * 9.28.6 HEVC Options
+      * 9.28.7 MPEG2 Options
+      * 9.28.8 VP9 Options
+      * 9.28.9 AV1 Options
+    * 9.29 snow
+      * 9.29.1 Options
+    * 9.30 VAAPI encoders
+    * 9.31 vbn
       * 9.31.1 Options
+    * 9.32 vc2
+      * 9.32.1 Options
   * 10 Subtitles Encoders
     * 10.1 dvdsub
       * 10.1.1 Options
@@ -5829,14 +5831,54 @@ For example to specify libaom encoding options with -aom-params:
     ffmpeg -i input -c:v libaom-av1 -b:v 500K -aom-params tune=psnr:enable-tpl-model=1 output.mp4
     
 
-### 9.9 libsvtav1
+### 9.9 liboapv
+
+Advanced Professional Video codec encoder wrapper.
+
+This encoder requires the presence of the liboapv headers and library during
+configuration. You need to explicitly configure the build with \--enable-
+liboapv.
+
+Many liboapv encoder options are mapped to FFmpeg global codec options, while
+unique encoder options are provided through private options.
+
+The apv project website is at
+<https://github.com/AcademySoftwareFoundation/openapv>.
+
+#### 9.9.1 Options
+
+The following options are supported by the liboapv wrapper.
+
+To get a more extensive documentation of the liboapv options, consult the
+liboapv documentation.
+
+preset
+
+    
+
+Set the quality-speed tradeoff [fastest, fast, medium, slow, placebo, default]
+
+qp
+
+    
+
+Set the quantization parameter value for CQP rate control mode.
+
+oapv-params (_parse_apv_params_)
+
+    
+
+Set liboapvenc options using a list of key=value pairs separated by ":". See
+the liboapv encoder user guide for a list of accepted parameters.
+
+### 9.10 libsvtav1
 
 SVT-AV1 encoder wrapper.
 
 Requires the presence of the SVT-AV1 headers and library during configuration.
 You need to explicitly configure the build with `--enable-libsvtav1`.
 
-#### 9.9.1 Options
+#### 9.10.1 Options
 
 profile
 
@@ -5946,14 +5988,14 @@ svtav1-params
 Set SVT-AV1 options using a list of key=value pairs separated by ":". See the
 SVT-AV1 encoder user guide for a list of accepted parameters.
 
-### 9.10 libjxl
+### 9.11 libjxl
 
 libjxl JPEG XL encoder wrapper.
 
 Requires the presence of the libjxl headers and library during configuration.
 You need to explicitly configure the build with `--enable-libjxl`.
 
-#### 9.10.1 Options
+#### 9.11.1 Options
 
 The libjxl wrapper supports the following options:
 
@@ -5985,7 +6027,7 @@ default is to use VarDCT for lossy encoding and Modular for lossless. VarDCT
 is generally superior to Modular for lossy encoding but does not support
 lossless encoding.
 
-### 9.11 libkvazaar
+### 9.12 libkvazaar
 
 Kvazaar H.265/HEVC encoder.
 
@@ -5993,7 +6035,7 @@ Requires the presence of the libkvazaar headers and library during
 configuration. You need to explicitly configure the build with \--enable-
 libkvazaar.
 
-#### 9.11.1 Options
+#### 9.12.1 Options
 
 b
 
@@ -6008,7 +6050,7 @@ kvazaar-params
 Set kvazaar parameters as a list of name=value pairs separated by commas (,).
 See kvazaar documentation for a list of options.
 
-### 9.12 libopenh264
+### 9.13 libopenh264
 
 Cisco libopenh264 H.264/MPEG-4 AVC encoder wrapper.
 
@@ -6018,7 +6060,7 @@ during configuration. You need to explicitly configure the build with
 
 For more information about the library see <http://www.openh264.org>.
 
-#### 9.12.1 Options
+#### 9.13.1 Options
 
 The following FFmpeg global options affect the configurations of the
 libopenh264 encoder.
@@ -6080,7 +6122,7 @@ allow_skip_frames
 
 Allow skipping frames to hit the target bitrate if set to 1.
 
-### 9.13 libtheora
+### 9.14 libtheora
 
 libtheora Theora encoder wrapper.
 
@@ -6090,7 +6132,7 @@ libtheora`.
 
 For more information about the libtheora project see <http://www.theora.org/>.
 
-#### 9.13.1 Options
+#### 9.14.1 Options
 
 The following global options are mapped to internal libtheora options which
 affect the quality and the bitrate of the encoded stream.
@@ -6139,7 +6181,7 @@ value in the native libtheora range [0-63].
 This option is valid only using the `ffmpeg` command-line tool. For library
 interface users, use global_quality.
 
-#### 9.13.2 Examples
+#### 9.14.2 Examples
 
   * Set maximum constant quality (VBR) encoding with `ffmpeg`: 
         
@@ -6151,14 +6193,14 @@ interface users, use global_quality.
         ffmpeg -i INPUT -codec:v libtheora -b:v 1000k OUTPUT.ogg
         
 
-### 9.14 libvpx
+### 9.15 libvpx
 
 VP8/VP9 format supported through libvpx.
 
 Requires the presence of the libvpx headers and library during configuration.
 You need to explicitly configure the build with `--enable-libvpx`.
 
-#### 9.14.1 Options
+#### 9.15.1 Options
 
 The following options are supported by the libvpx wrapper. The
 `vpxenc`-equivalent options or values are listed in parentheses for easy
@@ -6649,7 +6691,7 @@ Indicates frame duration
 
 For more information about libvpx see: <http://www.webmproject.org/>
 
-### 9.15 libvvenc
+### 9.16 libvvenc
 
 VVenC H.266/VVC encoder wrapper.
 
@@ -6659,12 +6701,12 @@ libvvenc.
 
 The VVenC project website is at <https://github.com/fraunhoferhhi/vvenc>.
 
-#### 9.15.1 Supported Pixel Formats
+#### 9.16.1 Supported Pixel Formats
 
 VVenC supports only 10-bit color spaces as input. But the internal (encoded)
 bit depth can be set to 8-bit or 10-bit at runtime.
 
-#### 9.15.2 Options
+#### 9.16.2 Options
 
 b
 
@@ -6741,7 +6783,7 @@ For example the encoding options might be provided with -vvenc-params:
     ffmpeg -i input -c:v libvvenc -b 1M -vvenc-params intraperiod=64:decodingrefreshtype=idr:poc0idr=1:internalbitdepth=8 output.mp4
     
 
-### 9.16 libwebp
+### 9.17 libwebp
 
 libwebp WebP Image encoder wrapper
 
@@ -6749,7 +6791,7 @@ libwebp is Google's official encoder for WebP images. It can encode in either
 lossy or lossless mode. Lossy images are essentially a wrapper around a VP8
 frame. Lossless images are a separate codec developed by Google.
 
-#### 9.16.1 Pixel Format
+#### 9.17.1 Pixel Format
 
 Currently, libwebp only supports YUV420 for lossy and RGB for lossless due to
 limitations of the format and libwebp. Alpha is supported for either mode.
@@ -6758,7 +6800,7 @@ passed in for encoding lossless, the pixel format will automatically be
 converted using functions from libwebp. This is not ideal and is done only for
 convenience.
 
-#### 9.16.2 Options
+#### 9.17.2 Options
 
 -lossless boolean
     
@@ -6831,7 +6873,7 @@ text
 
 Text-like
 
-### 9.17 libx264, libx264rgb
+### 9.18 libx264, libx264rgb
 
 x264 H.264/MPEG-4 AVC encoder wrapper.
 
@@ -6854,12 +6896,12 @@ The x264 project website is at <http://www.videolan.org/developers/x264.html>.
 The libx264rgb encoder is the same as libx264, except it accepts packed RGB
 pixel formats as input instead of YUV.
 
-#### 9.17.1 Supported Pixel Formats
+#### 9.18.1 Supported Pixel Formats
 
 x264 supports 8- to 10-bit color spaces. The exact bit depth is controlled at
 x264's configure time.
 
-#### 9.17.2 Options
+#### 9.18.2 Options
 
 The following options are supported by the libx264 wrapper. The
 `x264`-equivalent options or values are listed in parentheses for easy
@@ -7512,7 +7554,7 @@ Default is 0 (off).
 Encoding ffpresets for common usages are provided so they can be used with the
 general presets system (e.g. passing the pre option).
 
-### 9.18 libx265
+### 9.19 libx265
 
 x265 H.265/HEVC encoder wrapper.
 
@@ -7520,7 +7562,7 @@ This encoder requires the presence of the libx265 headers and library during
 configuration. You need to explicitly configure the build with \--enable-
 libx265.
 
-#### 9.18.1 Options
+#### 9.19.1 Options
 
 b
 
@@ -7640,7 +7682,7 @@ For example to specify libx265 encoding options with -x265-params:
     ffmpeg -i input -c:v libx265 -x265-params crf=26:psy-rd=1 output.mp4
     
 
-### 9.19 libxavs2
+### 9.20 libxavs2
 
 xavs2 AVS2-P2/IEEE1857.4 encoder wrapper.
 
@@ -7656,7 +7698,7 @@ The following standard libavcodec options are used:
 
 The encoder also has its own specific options:
 
-#### 9.19.1 Options
+#### 9.20.1 Options
 
 lcu_row_threads
 
@@ -7716,7 +7758,7 @@ For example to specify libxavs2 encoding options with -xavs2-params:
     ffmpeg -i input -c:v libxavs2 -xavs2-params RdoqLevel=0 output.avs2
     
 
-### 9.20 libxeve
+### 9.21 libxeve
 
 eXtra-fast Essential Video Encoder (XEVE) MPEG-5 EVC encoder wrapper. The
 xeve-equivalent options or values are listed in parentheses for easy
@@ -7733,7 +7775,7 @@ accepted by the libxeve `parse_xeve_params` function.
 
 The xeve project website is at <https://github.com/mpeg5/xeve>.
 
-#### 9.20.1 Options
+#### 9.21.1 Options
 
 The following options are supported by the libxeve wrapper. The xeve-
 equivalent options or values are listed in parentheses for easy migration.
@@ -7803,7 +7845,7 @@ threads (_threads_)
 
 Force to use a specific number of threads
 
-### 9.21 libxvid
+### 9.22 libxvid
 
 Xvid MPEG-4 Part 2 encoder wrapper.
 
@@ -7814,7 +7856,7 @@ during configuration. You need to explicitly configure the build with
 The native `mpeg4` encoder supports the MPEG-4 Part 2 format, so users can
 encode to this format without this library.
 
-#### 9.21.1 Options
+#### 9.22.1 Options
 
 The following options are supported by the libxvid wrapper. Some of the
 following options are listed but are not documented, and correspond to shared
@@ -8023,7 +8065,7 @@ ssim_acc
 Set SSIM accuracy. Valid options are integers within the range of 0-4, while 0
 gives the most accurate result and 4 computes the fastest.
 
-### 9.22 MediaFoundation
+### 9.23 MediaFoundation
 
 This provides wrappers to encoders (both audio and video) in the
 MediaFoundation framework. It can access both SW and HW encoders. Video
@@ -8031,12 +8073,12 @@ encoders can take input in either of nv12 or yuv420p form (some encoders
 support both, some support only either - in practice, nv12 is the safer
 choice, especially among HW encoders).
 
-### 9.23 Microsoft RLE
+### 9.24 Microsoft RLE
 
 Microsoft RLE aka MSRLE encoder. Only 8-bit palette mode supported. Compatible
 with Windows 3.1 and Windows 95.
 
-#### 9.23.1 Options
+#### 9.24.1 Options
 
 g integer
 
@@ -8045,11 +8087,11 @@ g integer
 Keyframe interval. A keyframe is inserted at least every `-g` frames,
 sometimes sooner.
 
-### 9.24 mpeg2
+### 9.25 mpeg2
 
 MPEG-2 video encoder.
 
-#### 9.24.1 Options
+#### 9.25.1 Options
 
 profile
 
@@ -8138,11 +8180,11 @@ a53cc boolean
 Import closed captions (which must be ATSC compatible format) into output.
 Default is 1 (on).
 
-### 9.25 png
+### 9.26 png
 
 PNG image encoder.
 
-#### 9.25.1 Options
+#### 9.26.1 Options
 
 compression_level
 
@@ -8150,7 +8192,7 @@ compression_level
 
 Sets the compression level, from 0 to 9(default)
 
-#### 9.25.2 Private options
+#### 9.26.2 Private options
 
 dpi integer
 
@@ -8170,14 +8212,14 @@ pred method
 
 Set prediction method (none, sub, up, avg, paeth, mixed), default is paeth
 
-### 9.26 ProRes
+### 9.27 ProRes
 
 Apple ProRes encoder.
 
 FFmpeg contains 2 ProRes encoders, the prores-aw and prores-ks encoder. The
 used encoder can be chosen with the `-vcodec` option.
 
-#### 9.26.1 Private Options for prores-ks
+#### 9.27.1 Private Options for prores-ks
 
 profile integer
 
@@ -8246,7 +8288,7 @@ alpha_bits integer
 Specify number of bits for alpha component. Possible values are 0, 8 and 16.
 Use 0 to disable alpha plane coding.
 
-#### 9.26.2 Speed considerations
+#### 9.27.2 Speed considerations
 
 In the default mode of operation the encoder has to honor frame constraints
 (i.e. not produce frames with size bigger than requested) while still making
@@ -8259,12 +8301,12 @@ Setting a higher bits_per_mb limit will improve the speed.
 For the fastest encoding speed set the qscale parameter (4 is the recommended
 value) and do not set a size constraint.
 
-### 9.27 QSV Encoders
+### 9.28 QSV Encoders
 
 The family of Intel QuickSync Video encoders (MPEG-2, H.264, HEVC, JPEG/MJPEG,
 VP9, AV1)
 
-#### 9.27.1 Ratecontrol Method
+#### 9.28.1 Ratecontrol Method
 
 The ratecontrol method is selected as follows:
 
@@ -8284,7 +8326,7 @@ Note that depending on your system, a different mode than the one you
 specified may be selected by the encoder. Set the verbosity level to verbose
 or higher to see the actual settings used by the QSV runtime.
 
-#### 9.27.2 Global Options -> MSDK Options
+#### 9.28.2 Global Options -> MSDK Options
 
 Additional libavcodec global options are mapped to MSDK options as follows:
 
@@ -8298,7 +8340,7 @@ Additional libavcodec global options are mapped to MSDK options as follows:
   * For the CQP mode, the i_qfactor/i_qoffset and b_qfactor/b_qoffset set the difference between QPP and QPI, and QPP and QPB respectively. 
   * Setting the coder option to the value vlc will make the H.264 encoder use CAVLC instead of CABAC. 
 
-#### 9.27.3 Common Options
+#### 9.28.3 Common Options
 
 Following options are used by all qsv encoders.
 
@@ -8343,7 +8385,7 @@ low_power
 
 For encoders set this flag to ON to reduce power consumption and GPU usage.
 
-#### 9.27.4 Runtime Options
+#### 9.28.4 Runtime Options
 
 Following options can be used durning qsv encoding.
 
@@ -8462,7 +8504,7 @@ Example:
 This option allows fine-grained control over various encoder-specific settings
 provided by the QSV encoder.
 
-#### 9.27.5 H264 options
+#### 9.28.5 H264 options
 
 These options are used by h264_qsv
 
@@ -8822,7 +8864,7 @@ frames, and the frames after skipped frames will be larger in size.
 skip_frame metadata indicates the number of missed frames before the current
 frame.
 
-#### 9.27.6 HEVC Options
+#### 9.28.6 HEVC Options
 
 These options are used by hevc_qsv
 
@@ -9171,7 +9213,7 @@ frames, and the frames after skipped frames will be larger in size.
 skip_frame metadata indicates the number of missed frames before the current
 frame.
 
-#### 9.27.7 MPEG2 Options
+#### 9.28.7 MPEG2 Options
 
 These options are used by mpeg2_qsv
 
@@ -9187,7 +9229,7 @@ profile
 
 'high'
 
-#### 9.27.8 VP9 Options
+#### 9.28.8 VP9 Options
 
 These options are used by vp9_qsv
 
@@ -9217,7 +9259,7 @@ tile_rows
 
 Number of rows for tiled encoding (requires libmfx >= 1.29).
 
-#### 9.27.9 AV1 Options
+#### 9.28.9 AV1 Options
 
 These options are used by av1_qsv (requires libvpl).
 
@@ -9304,9 +9346,9 @@ Maximum encoded frame size for P frames in bytes. If this value is set as
 larger than zero, then for P frames the value set by max_frame_size is
 ignored.
 
-### 9.28 snow
+### 9.29 snow
 
-#### 9.28.1 Options
+#### 9.29.1 Options
 
 iterative_dia_size
 
@@ -9314,7 +9356,7 @@ iterative_dia_size
 
 dia size for the iterative motion estimation
 
-### 9.29 VAAPI encoders
+### 9.30 VAAPI encoders
 
 Wrappers for hardware encoders accessible via VAAPI.
 
@@ -9649,7 +9691,7 @@ in the correct order.
 Only normal frames are produced - the vp9_superframe bitstream filter may be
 required to produce a stream usable with all decoders.
 
-### 9.30 vbn
+### 9.31 vbn
 
 Vizrt Binary Image encoder.
 
@@ -9657,7 +9699,7 @@ This format is used by the broadcast vendor Vizrt for quick texture streaming.
 Advanced features of the format such as LZW compression of texture data or
 generation of mipmaps are not supported.
 
-#### 9.30.1 Options
+#### 9.31.1 Options
 
 format string
 
@@ -9666,14 +9708,14 @@ format string
 Sets the texture compression used by the VBN file. Can be dxt1, dxt5 or raw.
 Default is dxt5.
 
-### 9.31 vc2
+### 9.32 vc2
 
 SMPTE VC-2 (previously BBC Dirac Pro). This codec was primarily aimed at
 professional broadcasting but since it supports yuv420, yuv422 and yuv444 at 8
 (limited range or full range), 10 or 12 bits, this makes it suitable for other
 tasks which require low overhead and low compression (like screen recording).
 
-#### 9.31.1 Options
+#### 9.32.1 Options
 
 b
 
@@ -9785,7 +9827,7 @@ FFmpeg source directory, or browsing the online repository at
 Maintainers for the specific components are listed in the file MAINTAINERS in
 the source code tree.
 
-This document was generated on _April 25, 2025_ using
+This document was generated on _May 21, 2025_ using
 [_makeinfo_](http://www.gnu.org/software/texinfo/).
 
 Hosting provided by [telepoint.bg](https://telepoint.bg)

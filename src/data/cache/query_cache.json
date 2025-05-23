@@ -1,5 +1,17 @@
 {
   "ed57d52272f19b33953110583ad9b062": {
     "command": "This command converts the given .mov file into an .mp4 file using the H.264 codec for video and AAC for audio, following best practices for FFmpeg commands."
+  },
+  "8730ffd03b0cfc530eb17809371b6e33": {
+    "command": "ffmpeg -i input.mp4 -c copy output.mp4"
+  },
+  "f2bad3c91d66b52d3a044172e56b041b": {
+    "command": "COMMAND: `ffmpeg -i input.mp3 -codec:a libfdk_aac output.m4a`"
+  },
+  "fb2b9c428316c38696cc6f6ef17501e7": {
+    "command": "CODE:\n\n   ```python\n   import os\n   import subprocess\n\n   def convert_mp3_to_aac(input_file, output_file):\n       command = f'ffmpeg -i {input_file} -codec:a libfdk_aac {output_file}'\n       subprocess.run(command, shell=True)\n\n   input_file = 'path/to/your/input.mp3'\n   output_file = 'path/to/your/output.m4a'\n   convert_mp3_to_aac(input_file, output_file)\n   ```"
+  },
+  "f3de35d203db795d190c738c7414f880": {
+    "command": "COMMAND: `ffmpeg -i input.mp3 -codec:a libfdk_aac output.m4a`"
   }
 }

@@ -7222,7 +7222,7 @@ FFmpeg source directory, or browsing the online repository at
 Maintainers for the specific components are listed in the file MAINTAINERS in
 the source code tree.
 
-This document was generated on _April 25, 2025_ using
+This document was generated on _May 21, 2025_ using
 [_makeinfo_](http://www.gnu.org/software/texinfo/).
 
 Hosting provided by [telepoint.bg](https://telepoint.bg)
