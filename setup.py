@@ -6,15 +6,15 @@ with open("README.md", "r", encoding="utf-8") as f:
 
 setup(
     name="ffmpeg-ai",
-    version="0.1.3",
+    version="0.1.8",
     description="AI-powered FFmpeg command generator",
     long_description=long_description,
     long_description_content_type="text/markdown",
     author="Aliasgar Jiwani",
     author_email="aliasgarjiwani@gmail.com",
     url="https://github.com/Aliasgar-Jiwani/ffmpeg-ai",
-    packages=["ffmpeg_ai"],
-    package_dir={"ffmpeg_ai": "src"},
+    package_dir={"": "src"},
+    packages=find_packages(where="src"),
     install_requires=[
         "typer",
         "rich",
