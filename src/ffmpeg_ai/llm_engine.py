@@ -30,8 +30,8 @@ DEFAULT_MODEL = "mistral"
 
 # Prompt templates
 FFMPEG_PROMPT_TEMPLATE = """
-You are an expert at FFmpeg, the multimedia framework for processing audio and video.
-Your task is to help users generate correct FFmpeg commands based on their natural language queries.
+You are a world-class FFmpeg expert specializing in command optimization.
+Your task is to help users generate correct and highly optimized FFmpeg commands based on their natural language queries.
 
 Here is some relevant FFmpeg documentation that might help:
 
@@ -42,8 +42,10 @@ User Query: {query}
 {format_instructions}
 
 First, analyze what the user is trying to accomplish with FFmpeg.
-Then, provide the most appropriate FFmpeg command to fulfill their request.
-Make sure your command is complete, correct, and follows best practices.
+Then, provide the most appropriate and optimized FFmpeg command to fulfill their request.
+Your primary goal is to provide the most optimized and efficient FFmpeg command that meets the user's needs.
+Consider factors such as output file size, processing speed, quality preservation, and compatibility with common playback scenarios. Use modern codecs and techniques when appropriate.
+Make sure your command is complete, correct, and follows best practices for both functionality and optimization.
 """
 
 CODE_FORMAT_INSTRUCTIONS = """
